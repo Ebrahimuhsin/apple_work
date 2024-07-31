@@ -1,0 +1,48 @@
+/* navigation bar ul */
+.navbar-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(245, 245, 247, 0.9) ;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  /* a tag config */
+
+  .navbar-ul li a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  /* li config */
+
+  .navbar-ul li {
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  /* navbar img config */
+
+  .navbar-ul img{
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  /* first imager work */
+
+  .firstimage img{
+    position: relative;
+    z-index: -1;
+  }
